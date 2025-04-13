@@ -511,7 +511,7 @@ const shouldShowVersioning = computed(
 				<render-template
 					:collection="collectionInfo.collection"
 					:item="templateData"
-					:template="collectionInfo.meta.display_template"
+					:template="collectionInfo.meta?.display_template"
 				/>
 			</h1>
 		</template>
